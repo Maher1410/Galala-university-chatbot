@@ -155,16 +155,8 @@ function _Home() {
   }
 
   return (
-    <div
-      className={`${
-        config.tightBorder && !isMobileScreen()
-          ? styles["tight-container"]
-          : styles.container
-      }`}
-    >
-      <div
-        className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
-      >
+    <div className={`${config.tightBorder && !isMobileScreen()? styles["tight-container"]: styles.container}`}>
+      <div className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}>
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Galala University</div>
           <div className={styles["sidebar-sub-title"]}>
