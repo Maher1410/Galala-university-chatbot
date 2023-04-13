@@ -168,7 +168,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Galala University</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            Future Starts Here.
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
